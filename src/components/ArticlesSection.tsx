@@ -21,7 +21,7 @@ const articles = [
 
 const ArticlesSection = () => {
   return (
-    <section id="articles" className="py-20 md:py-32 section-padding">
+    <section id="articles" className="light-section py-20 md:py-32 section-padding">
       <div className="flex items-end justify-between mb-16">
         <h2 className="font-heading text-3xl md:text-5xl font-bold">
           Articles

@@ -17,7 +17,7 @@ const problems = [
 
 const ProblemSection = () => {
   return (
-    <section id="problem" className="py-20 md:py-32 section-padding">
+    <section id="problem" className="light-section py-20 md:py-32 section-padding">
       <div className="max-w-4xl">
         <h2 className="font-heading text-3xl md:text-5xl font-bold leading-tight mb-6">
           Expanding into Mexico takes more than hiring talent.

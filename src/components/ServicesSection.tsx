@@ -23,7 +23,7 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="py-20 md:py-32 bg-secondary">
+    <section id="services" className="light-section py-20 md:py-32">
       <div className="section-padding">
         <h2 className="font-heading text-3xl md:text-5xl font-bold mb-16">
           What I do
@@ -31,7 +31,7 @@ const ServicesSection = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {services.map((s, i) => (
             <div key={i} className="group">
-              <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+              <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/15 transition-colors">
                 <s.icon className="w-6 h-6 text-primary" />
               </div>
               <h3 className="font-heading text-xl md:text-2xl font-bold mb-4">
