@@ -17,12 +17,12 @@ const problems = [
 
 const ProblemSection = () => {
   return (
-    <section id="problem" className="light-section py-20 md:py-32 section-padding">
+    <section id="problem" className="bg-white py-20 md:py-32 section-padding">
       <div className="max-w-4xl">
-        <h2 className="font-heading text-3xl md:text-5xl font-bold leading-tight mb-6">
+        <h2 className="font-heading text-3xl md:text-5xl font-bold leading-tight mb-6 text-gray-900">
           Expanding into Mexico takes more than hiring talent.
         </h2>
-        <p className="font-body text-lg text-muted-foreground leading-relaxed mb-14 max-w-3xl">
+        <p className="font-body text-lg text-gray-500 leading-relaxed mb-14 max-w-3xl">
           It takes someone on the ground who can build and run the operation. I've lived in Mexico for 15+ years and spent the last 5 building and running cross-border operations as COO, founder, and ops leader.
         </p>
       </div>
@@ -30,10 +30,10 @@ const ProblemSection = () => {
         {problems.map((p, i) => (
           <div
             key={i}
-            className="group border border-border p-8 hover:border-primary/50 hover:bg-secondary/50 transition-all duration-300"
+            className="group border border-gray-200 p-8 hover:border-primary/50 hover:bg-gray-50 transition-all duration-300"
           >
             <ArrowRight className="text-primary mb-4 w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            <p className="font-body text-base leading-relaxed text-foreground">
+            <p className="font-body text-base leading-relaxed text-gray-800">
               {p.text}
             </p>
           </div>

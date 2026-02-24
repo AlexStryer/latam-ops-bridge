@@ -21,9 +21,9 @@ const articles = [
 
 const ArticlesSection = () => {
   return (
-    <section id="articles" className="light-section py-20 md:py-32 section-padding">
+    <section id="articles" className="bg-white py-20 md:py-32 section-padding">
       <div className="flex items-end justify-between mb-16">
-        <h2 className="font-heading text-3xl md:text-5xl font-bold">
+        <h2 className="font-heading text-3xl md:text-5xl font-bold text-gray-900">
           Articles
         </h2>
       </div>
@@ -31,15 +31,15 @@ const ArticlesSection = () => {
         {articles.map((a, i) => (
           <article
             key={i}
-            className="group border-b border-border pb-12 last:border-none cursor-pointer"
+            className="group border-b border-gray-200 pb-12 last:border-none cursor-pointer"
           >
             <span className="text-primary text-sm font-body font-semibold uppercase tracking-widest mb-3 block">
               {a.tag}
             </span>
-            <h3 className="font-heading text-2xl md:text-3xl font-bold mb-3 group-hover:text-primary transition-colors">
+            <h3 className="font-heading text-2xl md:text-3xl font-bold mb-3 text-gray-900 group-hover:text-primary transition-colors">
               {a.title}
             </h3>
-            <p className="font-body text-muted-foreground leading-relaxed max-w-2xl">
+            <p className="font-body text-gray-500 leading-relaxed max-w-2xl">
               {a.excerpt}
             </p>
           </article>
