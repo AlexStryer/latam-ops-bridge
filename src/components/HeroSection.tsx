@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="relative z-10 section-padding w-full">
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] max-w-4xl mb-8">
           Something is{" "}
-          <span className="text-primary italic">broken>{" "}
+          <span className="text-primary italic">broken</span>{" "}
           in your Mexico operation.
         </h1>
         <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed">
