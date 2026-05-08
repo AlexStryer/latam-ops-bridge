@@ -2,16 +2,16 @@ import { ArrowRight } from "lucide-react";
 
 const problems = [
   {
-    text: "You're expanding into Mexico and need someone to build and run the operation",
+    text: "You're expanding into Mexico and need someone to build the operation from the ground up",
   },
   {
-    text: "You have a Mexico team but delivery is slipping and HQ can't see why",
+    text: "You have a Mexico team but delivery keeps slipping and HQ can't figure out why",
   },
   {
-    text: "Your cross-border operations need structure, process, and someone who can bridge both sides",
+    text: "Your Mexico team is talented but something between them and the US side isn't connecting",
   },
   {
-    text: "You need nearshore dev teams and technical hiring (via my dev agency, HolaDev)",
+    text: "You need to hire in Mexico and don't know where to start",
   },
 ];
 
@@ -20,10 +20,10 @@ const ProblemSection = () => {
     <section id="problem" className="bg-white py-20 md:py-32 section-padding">
       <div className="max-w-4xl">
         <h2 className="font-heading text-3xl md:text-5xl font-bold leading-tight mb-6 text-gray-900">
-          Expanding into Mexico takes more than hiring talent.
+          Most US companies expanding into Mexico make the same mistake.
         </h2>
         <p className="font-body text-lg text-gray-500 leading-relaxed mb-14 max-w-3xl">
-          It takes someone on the ground who can build and run the operation. I've lived in Mexico for 15+ years and spent the last 5 building and running cross-border operations as COO, founder, and ops leader.
+          They hire good people, hand them US systems, and expect the operation to run itself. Six months later, delivery is slipping, clients are frustrated, and nobody on the ground wants to be the one to say so.
         </p>
       </div>
       <div className="grid md:grid-cols-2 gap-6 max-w-5xl">
