@@ -3,22 +3,28 @@ import { Building2, Users, Briefcase } from "lucide-react";
 const services = [
   {
     icon: Briefcase,
-    title: "Fractional COO",
+    title: "Operations Diagnostic",
     description:
-      "Fractional COO for international companies running teams in Mexico. I stand up operations, build recruitment and delivery capabilities, and make sure what gets promised actually gets delivered.",
+      "Three weeks. Stakeholder interviews, one-on-ones, process review. You get a written report with findings and a clear path forward. Optional site visit to your Mexico office.",
   },
   {
     icon: Users,
-    title: "Nearshore Dev Teams",
+    title: "Advisory & Coaching",
     description:
-      "Nearshore dev teams and technical hiring via my dev agency, HolaDev. I've built cross-border engineering teams and managed delivery for US clients.",
+      "Your systems exist. Your team needs someone to bridge the gap. I work with your leadership to build the communication structures, accountability frameworks, and workflows that actually hold across the border.",
   },
   {
     icon: Building2,
-    title: "Mexico Market Entry",
+    title: "Fractional COO",
     description:
-      "Entity setup, compliance, local networks. I help companies navigate the complexities of establishing operations in Mexico from scratch.",
+      "I join your team and own the operation. You get a senior ops leader who knows Mexico, without the full-time hire. I build the systems, manage the people, and make sure what gets promised actually gets delivered.",
   },
+  {
+    icon: Building2,
+    title: "Mexico Talent",
+    description:
+      "Looking for your next ops manager, delivery lead, or key hire in Mexico? I tap my network and recruiter relationships to find the right fit for professional services and tech-adjacent firms.",
+  },  
 ];
 
 const ServicesSection = () => {
