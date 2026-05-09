@@ -10,12 +10,12 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-background/70" />
       <div className="relative z-10 section-padding w-full">
         <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] max-w-4xl mb-8">
-          Something is{" "}
+          Is something{" "}
           <span className="text-primary italic">broken</span>{" "}
-          in your Mexico operation.
+          in your Mexico operation?
         </h1>
         <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed">
-          I help professional services firms get it right.
+          If you're a US professional services firm running teams in Mexico, chances are something isn't working the way you expected. I help you find it, fix it, and build an operation that runs the way it should.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <button
