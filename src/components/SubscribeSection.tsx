@@ -16,7 +16,9 @@ const SubscribeSection = () => {
         <h2 className="font-heading text-3xl md:text-5xl font-bold text-subscribe-foreground mb-10">
           Sign up for free weekly insights
         </h2>
-        <p>Every week I share what I see running cross-border operations in Mexico.</p>
+        <p className="font-body text-base md:text-lg text-subscribe-foreground/90 mb-10 max-w-2xl">
+          Every week I share what I see running cross-border operations in Mexico.
+        </p>
         <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 max-w-3xl">
           <input
             type="email"
