@@ -1,4 +1,5 @@
 import heroBg from "@/assets/hero-bg.jpg";
+import { Link } from "react-router-dom";
 
 const HeroSection = () => {
   return (
@@ -17,19 +18,13 @@ const HeroSection = () => {
         <p className="font-body text-lg md:text-xl text-muted-foreground max-w-2xl mb-10 leading-relaxed">
           If you're a US professional services firm running teams in Mexico, chances are something isn't working the way you expected. I help you find it, fix it, and build an operation that runs the way it should.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <button
-            onClick={() => document.getElementById("subscribe")?.scrollIntoView({ behavior: "smooth" })}
+        <div className="flex">
+          <Link
+            to="/insights"
             className="bg-primary text-primary-foreground px-8 py-4 font-body font-semibold text-base hover:opacity-90 transition-opacity"
           >
-            Let's Talk
-          </button>
-          <button
-            onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
-            className="border border-foreground/30 text-foreground px-8 py-4 font-body font-semibold text-base hover:bg-foreground/5 transition-colors"
-          >
-            How I Can Help
-          </button>
+            Learn More
+          </Link>
         </div>
       </div>
     </section>

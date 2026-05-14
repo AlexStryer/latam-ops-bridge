@@ -1,26 +1,26 @@
-import { Building2, Users, Briefcase } from "lucide-react";
+import { Stethoscope, Compass, Briefcase, UserSearch } from "lucide-react";
 
 const services = [
   {
-    icon: Briefcase,
+    icon: Stethoscope,
     title: "Operations Diagnostic",
     description:
       "Three weeks. Stakeholder interviews, one-on-ones, process review. You get a written report with findings and a clear path forward. Optional site visit to your Mexico office.",
   },
   {
-    icon: Users,
+    icon: Compass,
     title: "Advisory & Coaching",
     description:
       "Your systems exist. Your team needs someone to bridge the gap. I work with your leadership to build the communication structures, accountability frameworks, and workflows that actually hold across the border.",
   },
   {
-    icon: Building2,
+    icon: Briefcase,
     title: "Fractional COO",
     description:
       "I join your team and own the operation. You get a senior ops leader who knows Mexico, without the full-time hire. I build the systems, manage the people, and make sure what gets promised actually gets delivered.",
   },
   {
-    icon: Building2,
+    icon: UserSearch,
     title: "Mexico Talent",
     description:
       "Looking for your next ops manager, delivery lead, or key hire in Mexico? I tap my network and recruiter relationships to find the right fit for professional services and tech-adjacent firms.",
@@ -29,12 +29,12 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <section id="services" className="bg-gray-50 py-20 md:py-32">
+    <section id="services" className="bg-white py-20 md:py-32">
       <div className="section-padding">
         <h2 className="font-heading text-3xl md:text-5xl font-bold mb-16 text-gray-900">
           What I do
         </h2>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((s, i) => (
             <div key={i} className="group">
               <div className="w-14 h-14 rounded-full bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/15 transition-colors">
